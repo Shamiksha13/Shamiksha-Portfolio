@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also import other style files */
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Cinzel:wght@600;700&display=swap');
+
+/* =========================
+   THOR × NEUMORPHIC THEME
+   ========================= */
+:root {
+  --bg-main: #0b0f12;
+  --bg-card: #141a20;
+  --text-primary: #e6edf3;
+  --text-muted: #9aa4af;
+  --accent-gold: #c9a24d;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, sans-serif;
+  background: radial-gradient(
+    ellipse at top,
+    #121820 0%,
+    #0b0f12 55%,
+    #080b0e 100%
+  );
+  color: var(--text-primary);
+}
+/* ===== Entrance Animations ===== */
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(16px);
+  animation: fadeUp 0.9s ease forwards;
+}
+
+.fade-delay-1 { animation-delay: 0.15s; }
+.fade-delay-2 { animation-delay: 0.3s; }
+.fade-delay-3 { animation-delay: 0.45s; }
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+/* Headings */
+h1, h2, h3 {
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}

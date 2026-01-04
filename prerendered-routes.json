@@ -1,0 +1,10 @@
+{
+  "routes": {
+    "/Shamiksha-Portfolio": {},
+    "/Shamiksha-Portfolio/about": {},
+    "/Shamiksha-Portfolio/contact": {},
+    "/Shamiksha-Portfolio/education": {},
+    "/Shamiksha-Portfolio/projects": {},
+    "/Shamiksha-Portfolio/skills": {}
+  }
+}
